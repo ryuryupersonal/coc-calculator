@@ -4,16 +4,57 @@
         <meta charset="UTF-8">
         <title>coc calculator</title>
 
-        <meta name="viewport" content="width=device-width,initial-scale=1"
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <link rel="stylesheet" href="style.css"/>
         <script src="script.js"></script>
     </head>
 
     <body>
-        <main class="container">
+        <main class="container-main">
             <div>
                 <h1>COC Calculator</h1>
+            </div>
+            <div id="constant-damage">
+                <h2>Constant Damage Total: <span id="damage-total">0</span></h2>
+                <div class="icons">
+                    <div class="icon">
+                        <picture>
+                            <source srcset="assets/Fireball.webp" type="image/webp" />
+                            <source srcset="assets/Fireball.png" type="image/png" />
+                            <img src="assets/Fireball.png" alt="fireball" />
+                        </picture>
+                        <div>
+                            <button onclick="updateLevel('flame', -1)">-</button>
+                            <span id="flame-level">1</span>
+                            <button onclick="updateLevel('flame', 1)">+</button>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/arrow.png" alt="Arrow">
+                        <div>
+                            <button onclick="updateLevel('arrow', -1)">-</button>
+                            <span id="arrow-level">1</span>
+                            <button onclick="updateLevel('arrow', 1)">+</button>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/shield.png" alt="Shield">
+                        <div>
+                            <button onclick="updateLevel('shield', -1)">-</button>
+                            <span id="shield-level">1</span>
+                            <button onclick="updateLevel('shield', 1)">+</button>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/lightning.png" alt="Lightning">
+                        <div>
+                            <button onclick="updateLevel('lightning', -1)">-</button>
+                            <span id="lightning-level">1</span>
+                            <button onclick="updateLevel('lightning', 1)">+</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="table-responsive">
                 <table class="table">
