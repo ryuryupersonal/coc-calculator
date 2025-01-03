@@ -1,16 +1,30 @@
 [
     {
+        "id" : "dmg-spl-lightning",
+        "name" : "Lightning",
+        "img" : "assets/Lightning.webp",
+        "damage" : [150, 180, 210, 240, 270, 320, 400, 480, 560, 600, 640, 680],
+        "max" : 11
+    },
+    {
         "id" : "dmg-equ-fireball",
         "name" : "Fireball",
-        "img" : "Fireball.webp",
+        "img" : "assets/Fireball.webp",
         "damage" : [1500, 1500, 1700, 1700, 1800, 1950, 1950, 2050, 2200, 2200, 2350, 2650, 2650, 2750, 3100, 3100, 3250, 3400, 3400, 3500, 3650, 3650, 3750, 3900, 3900, 3950, 4100],
         "max" : 1
     },
     {
-        "id" : "dmg-spl-lightning",
-        "name" : "Lightning",
-        "img" : "Lightning.webp",
-        "damage" : [150, 180, 210, 240, 270, 320, 400, 480, 560, 600, 640, 680],
-        "max" : 11
+        "id" : "dmg-equ-giantarrow",
+        "name" : "Giant Arrow",
+        "img" : "assets/Giant_Arrow.webp",
+        "damage" : [750, 750, 850, 850, 850, 1000, 1000, 1000, 1200, 1200, 1200, 1500, 1500, 1500, 1750, 1750, 1750, 1950],
+        "max" : 1
+    },
+    {
+        "id" : "dmg-equ-spikyball",
+        "name" : "Spiky Ball",
+        "img" : "assets/Spiky_Ball.webp",
+        "damage" : [1000, 1000, 1250, 1250, 1250, 1500, 1500, 1500, 1750, 1750, 1750, 2000, 2000, 2000, 2250, 2250, 2250, 2500, 2500, 2500, 2750, 2750, 2750, 3000, 3000, 3000, 3250],
+        "max" : 1
     }
 ]

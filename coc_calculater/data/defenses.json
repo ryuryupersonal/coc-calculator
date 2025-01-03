@@ -1,146 +1,168 @@
 [
     {
         "id" : 0,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 1)",
         "level" : 1,
         "th" : 1,
         "hp" : 420
     },
     {
         "id": 1,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 2)",
         "level": 2,
         "th": 1,
         "hp": 470
     },
     {
         "id": 2,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 3)",
         "level": 3,
         "th": 2,
         "hp": 520
     },
     {
         "id": 3,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 4)",
         "level": 4,
         "th": 3,
         "hp": 570
     },
     {
         "id": 4,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 5)",
         "level": 5,
         "th": 4,
         "hp": 620
     },
     {
         "id": 5,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 6)",
         "level": 6,
         "th": 5,
         "hp": 670
     },
     {
         "id": 6,
+        "defense": "Cannon",
+        "display": "Cannon (Lv 7)",
         "level": 7,
         "th": 6,
         "hp": 730
     },
     {
         "id": 7,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 8)",
         "level": 8,
         "th": 7,
         "hp": 800
     },
     {
         "id": 8,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 9)",
         "level": 9,
         "th": 8,
         "hp": 880
     },
     {
         "id": 9,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 10)",
         "level": 10,
         "th": 8,
         "hp": 960
     },
     {
         "id": 10,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 11)",
         "level": 11,
         "th": 9,
         "hp": 1060
     },
     {
         "id": 11,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 12)",
         "level": 12,
         "th": 10,
         "hp": 1160
     },
     {
         "id": 12,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 13)",
         "level": 13,
         "th": 10,
         "hp": 1260
     },
     {
         "id": 13,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 14)",
         "level": 14,
         "th": 11,
         "hp": 1380
     },
     {
         "id": 14,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 15)",
         "level": 15,
         "th": 11,
         "hp": 1500
     },
     {
         "id": 15,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 16)",
         "level": 16,
         "th": 12,
         "hp": 1620
     },
     {
         "id": 16,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 17)",
         "level": 17,
         "th": 12,
         "hp": 1740
     },
     {
         "id": 17,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 18)",
         "level": 18,
         "th": 13,
         "hp": 1870
     },
     {
         "id": 18,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 19)",
         "level": 19,
         "th": 13,
         "hp": 2000
     },
     {
         "id": 19,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 20)",
         "level": 20,
         "th": 14,
         "hp": 2150
     },
     {
         "id": 20,
-        "name": "Cannon",
+        "defense": "Cannon",
+        "display": "Cannon (Lv 21)",
         "level": 21,
         "th": 15,
         "hp": 2250
