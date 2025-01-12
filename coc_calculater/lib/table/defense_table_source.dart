@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:coc_calculater/model/defense_model.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';

@@ -8,7 +8,7 @@ import 'package:coc_calculater/table/defense_table_source.dart';
 import 'package:coc_calculater/table/table_operation.dart';
 import 'package:coc_calculater/ui/th_filter_popup.dart';
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 
 class DefenseTableWidget extends ConsumerStatefulWidget {

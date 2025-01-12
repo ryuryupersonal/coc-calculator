@@ -1,7 +1,7 @@
 import 'package:coc_calculater/model/damage_model.dart';
 import 'package:coc_calculater/state/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class DamageCard extends ConsumerWidget {
   final DamageModel model;
