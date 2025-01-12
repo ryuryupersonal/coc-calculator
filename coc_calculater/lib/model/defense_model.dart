@@ -3,9 +3,8 @@ import 'package:equatable/equatable.dart';
 class DefenseModel extends Equatable {
   final int id;
   final String defense;
-  final String display;
   final int level;
-  final int th;
+  final List<int> th;
   final int hp;
 
   final int supercharge;
@@ -13,7 +12,6 @@ class DefenseModel extends Equatable {
   const DefenseModel({
     required this.id,
     required this.defense,
-    required this.display,
     required this.level,
     required this.th,
     required this.hp,
@@ -24,14 +22,13 @@ class DefenseModel extends Equatable {
     return DefenseModel(
       id: json['id'] as int,
       defense: json['defense'] as String,
-      display: json['display'] as String,
       level: json['level'] as int,
-      th: json['th'] as int,
+      th: (json['th'] as List<dynamic>).map((e) => e as int).toList(),
       hp: json['hp'] as int,
       supercharge: json['supercharge'] != null ? json['supercharge'] as int : 0
     );
   }
 
   @override
-  List<Object?> get props => [id, defense, display, level, th, hp];
+  List<Object?> get props => [id];
 }

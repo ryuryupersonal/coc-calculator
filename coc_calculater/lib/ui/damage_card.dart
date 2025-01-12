@@ -1,7 +1,7 @@
 import 'package:coc_calculater/model/damage_model.dart';
-import 'package:coc_calculater/provider.dart';
+import 'package:coc_calculater/state/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class DamageCard extends ConsumerWidget {
   final DamageModel model;
@@ -148,7 +148,7 @@ class DamagesCardState {
 
 class DamagesCardNotifier extends StateNotifier<DamagesCardState> {
   DamagesCardNotifier(DamageModel model)
-      : super(DamagesCardState(model: model));
+      : super(DamagesCardState(model: model, level: model.damage.length));
 
   void incLevel() {
     if (state.level < state.model.damage.length) {
