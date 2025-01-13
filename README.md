@@ -1,16 +1,16 @@
-<h1 align=Center>coc-calculator</h1>
+<h1 align=Center><a href="https://ryuryupersonal.github.io/coc-calculator/">coc-calculator</a></h1>
 
 <h3 align=Center>Clash of Clans Damage Calculator and Hitpoint Table</h3>
 
 <br>
 
-## Constant Damage Calculator
+<h2 align=Center>Constant Damage Calculator</h2>
 
 <p align=Center>
   <img src="https://github.com/user-attachments/assets/90710d14-4547-481e-aaa6-cd57b48b1345" alt="Constant Damage Calculator">
 </p>
 
-## Defenses Hitpoint Table
+<h2 align=Center>Defenses Hitpoint Table</h2>
 
 <p align=Center>
   <img src="https://github.com/user-attachments/assets/e453610d-9689-4596-a487-136f82745d6e" alt="Defenses Hitpoint Table">
