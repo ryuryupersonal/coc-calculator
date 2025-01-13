@@ -34,3 +34,4 @@
 - Fix Spell Effect on Resource Buildings.
 - Fix behavior When elements in DataGirdCell overflowed.
 - Asynchronous some Operations.
+- Add a ui to set the earthquake spell level.
