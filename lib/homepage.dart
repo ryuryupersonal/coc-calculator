@@ -9,23 +9,48 @@ class HomePage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: const Text('COC Calculator'),
-        backgroundColor: Colors.white,
-        elevation: 2,
+        body: Stack(children: [
+      Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage("assets/Background.webp"), fit: BoxFit.cover),
+        ),
       ),
-
-      body: const SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-
-          children: [
-            CalculatorWidget(),
-            DefenseTableWidget()
-          ]
-        )
-      )
-    );
+      SingleChildScrollView(
+          child:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Container(
+          width: double.infinity,
+          height: 72,
+          color: Colors.blueGrey.shade50,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(children: [
+                const SizedBox(width: 28),
+                Text("COC Calculator",
+                    style: Theme.of(context).textTheme.headlineSmall)
+              ]),
+              // Row(
+              //   mainAxisAlignment: MainAxisAlignment.end,
+              //   children: [
+              //     TextButton(
+              //         style: TextButton.styleFrom(
+              //             overlayColor: Colors.transparent),
+              //         onPressed: () {},
+              //         child: const Text("Settings",
+              //             style: TextStyle(color: Colors.black, fontSize: 20))),
+              //     const SizedBox(width: 36)
+              //   ],
+              // )
+            ],
+          ),
+        ),
+        const CalculatorWidget(),
+        const DefenseTableWidget()
+      ]))
+    ]));
   }
 }
